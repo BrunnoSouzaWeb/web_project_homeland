@@ -110,6 +110,7 @@
     max-width: 720px;
     padding: 0 24px;
     padding-top: 88px;
+    align-self: center;
   }
 
   .places__info {

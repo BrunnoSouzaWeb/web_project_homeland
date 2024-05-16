@@ -16,6 +16,7 @@
     max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     padding-inline: 24px;
+    align-self: center;
   }
 
   .photos__imagem {
