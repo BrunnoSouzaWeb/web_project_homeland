@@ -1,6 +1,6 @@
 # Página web responsiva - Tripleten web_project_homeland.
 
-Este projeto foi elaborado para avaliar conhecimentos iniciais sobre responsividade de páginas Web ministrado no curso da Tripleten na Sprint 5.
+Este projeto foi elaborado para avaliar conhecimentos iniciais sobre responsividade de páginas Web ministrado no curso da Tripleten nas Sprint´s 5 e 6.
 
 Foram fornecidos três layouts de página web segundo especificações fornecidas por Design próprio no ambiente Figma. Apresentou os seguintes layouts: 1280px para Desktop, 768px para Tablet e 320px para Smartfones.
 
