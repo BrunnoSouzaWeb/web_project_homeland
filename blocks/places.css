@@ -1,12 +1,13 @@
 .places {
   max-width: 984px;
-  margin: 0 auto;
+  padding: 0 148px;
   padding-top: 92px;
   color: #ffffff;
 }
 
 .places__info {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "title artist"
     "image paragraph"
@@ -34,6 +35,7 @@
 }
 
 .places__website-title {
+  max-width: 85.17px;
   font-size: 12px;
   line-height: 1.21;
   color: #aaaaaa;
@@ -42,6 +44,7 @@
 }
 
 .places__website-artist {
+  max-width: 329.66px;
   font-size: 18px;
   line-height: 1.22;
   margin: 0;
@@ -54,6 +57,11 @@
   background: #000000;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   grid-area: image;
+}
+
+.places__image:hover {
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  opacity: 50%;
 }
 
 .places__paragraphs {
@@ -81,15 +89,11 @@
   text-decoration: none;
   color: #ffffff;
   padding: 13px 20px;
+  border-radius: 4px;
   margin: 0;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   grid-area: link;
-}
-
-.places__image:hover {
-  box-shadow: 10px 10px 25px 0px #00000080;
-  opacity: 50%;
 }
 
 .places__link:hover {
@@ -104,7 +108,7 @@
 @media screen and (max-width: 900px) {
   .places {
     max-width: 720px;
-    grid-template-columns: repeat(2, 50%);
+    padding: 0 24px;
     padding-top: 88px;
   }
 
@@ -119,6 +123,14 @@
   }
 
   .places__website {
+    max-width: 352px;
+  }
+
+  .places__website-title {
+    max-width: 67px;
+  }
+
+  .places__website-artist {
     max-width: 352px;
   }
 
@@ -139,10 +151,11 @@
 @media screen and (max-width: 600px) {
   .places {
     max-width: 320px;
-    padding-top: 62px;
+    padding-top: 38px;
   }
 
   .places__info {
+    grid-template-columns: 1fr;
     grid-template-areas:
       "title "
       "creator"
@@ -163,6 +176,14 @@
     max-width: 288px;
   }
 
+  .places__website-title {
+    max-width: 288px;
+  }
+
+  .places__website-artist {
+    max-width: 288px;
+  }
+
   .places__image {
     max-width: 320px;
   }
@@ -173,5 +194,7 @@
 
   .places__link {
     max-width: 288px;
+    font-size: 14px;
+    padding: 15px 22px;
   }
 }
