@@ -6,7 +6,7 @@
   padding-inline: 48px;
 }
 
-.photos__imagem {
+.photo-grid__img {
   max-width: 284px;
   width: 100%;
 }
@@ -19,7 +19,7 @@
     align-self: center;
   }
 
-  .photos__imagem {
+  .photo-grid__img {
     max-width: 352px;
   }
 }
@@ -32,7 +32,7 @@
     padding-inline: 16px;
   }
 
-  .photos__imagem {
+  .photo-grid__img {
     max-width: 288px;
     width: 100%;
   }
